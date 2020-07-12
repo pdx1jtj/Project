@@ -9,7 +9,7 @@ I live in Portland, OR
 Three of my favorite places:
 
 - Devil's Tower, WY
-- Grand Canyon, AX
+- Grand Canyon, AZ
 - Joshua Tree, CA
 
 ### Update
