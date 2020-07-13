@@ -3,6 +3,7 @@ README.md:
 	echo "# Title: Project Guessing Game \n" > README.md
 	echo "Date and Time: \n" >> README.md
 	date >> README.md
+	echo "" >> README.md
 	echo "Author:  John Jarvis \n" >> README.md
 	echo "Bash Script File: \n" >> README.md
 	echo "guessinggame.sh \n" >> README.md

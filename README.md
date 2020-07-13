@@ -2,7 +2,8 @@
 
 Date and Time: 
 
-Mon 13 Jul 2020 12:45:59 AM UTC
+Mon 13 Jul 2020 12:49:45 AM UTC
+
 Author:  John Jarvis 
 
 Bash Script File: 
