@@ -1,17 +1,9 @@
-# John Jarvis
-
-## Geography
-
-I live in Portland, OR
-
-
-## Fun
-Three of my favorite places:
-
-- Devil's Tower, WY
-- Grand Canyon, AZ
-- Joshua Tree, CA
-
-### Update
+Title: Project Guessing Game
 Date and Time: 
-Sun 12 Jul 2020 09:52:20 PM UTC
+Mon 13 Jul 2020 12:32:48 AM UTC
+Author:  John Jarvis
+Bash Script File:
+guessinggame.sh
+number of lines in program:
+26
+
