@@ -1,12 +1,12 @@
 
 README.md:
-	echo "Title: Project Guessing Game" > README.md
-	echo "Date and Time: " >> README.md
+	echo "# Title: Project Guessing Game \n" > README.md
+	echo "Date and Time: \n" >> README.md
 	date >> README.md
-	echo "Author:  John Jarvis" >> README.md
-	echo "Bash Script File:" >> README.md
-	echo "guessinggame.sh" >> README.md
-	echo "number of lines in program:" >> README.md
+	echo "Author:  John Jarvis \n" >> README.md
+	echo "Bash Script File: \n" >> README.md
+	echo "guessinggame.sh \n" >> README.md
+	echo "Number of lines in program: \n" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo "" >> README.md
 
