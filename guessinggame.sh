@@ -5,7 +5,12 @@
 #       However, if the Current Directory has subdirectories, they will be counted also, making the File Count incorrect.
   
 
-ANSWER=`ls -l | grep ^- | wc -l`
+function count {
+	count=$(ls -l | grep ^- | wc -l)
+	echo $count
+}
+
+ANSWER=$(count)
 
 # echo $ANSWER
 # echo ""
