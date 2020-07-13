@@ -1,20 +1,26 @@
 #!/usr/bin/env bash
-# File: simpleelif.sh -- from Week-3 IF lesson
+# File: guessinggame.sh
+
+# Note: Stackoverflow and some other sites suggested using "ls -1 | wc -l" to get the number of files in the Current Directory.
+#       However, if the Current Directory has subdirectories, they will be counted also, making the File Count incorrect.
+  
 
 ANSWER=`ls -l | grep ^- | wc -l`
 
-echo $ANSWER
-echo ""
+# echo $ANSWER
+# echo ""
 
-read -p "Please guess the mumber of files: " GUESS
+echo "Let's play a game..."
+
+read -p "Please guess the number of files: " GUESS
 
 while [[ $GUESS  -ne $ANSWER ]]
 do
 	if [[ $GUESS -lt $ANSWER ]] 
 	then
-		echo "Sorry, $GUESS is Too Low.  Try again"
+		echo "Sorry, $GUESS is Too Low."
 	else
-		echo "Too bad, $GUESS is Too High.  Try again.  Or press '0' to quit"
+		echo "Too bad, $GUESS is Too High."
 	fi
 
 	echo "Try again"
@@ -22,5 +28,6 @@ do
 	read -p "Please guess the number of files: " GUESS
 done
 
-echo "How do you like that?"
+echo "That is correct"
+echo "How did you like that?"
 

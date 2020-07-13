@@ -2,7 +2,7 @@
 
 Date and Time: 
 
-Mon 13 Jul 2020 12:49:45 AM UTC
+Mon 13 Jul 2020 01:12:51 AM UTC
 
 Author:  John Jarvis 
 
@@ -12,5 +12,5 @@ guessinggame.sh
 
 Number of lines in program: 
 
-26
+33
 
